@@ -21,7 +21,7 @@ export const NodeChannel = ({ channel, nodeLookup }) => {
           </g>
         </svg>
       </div>
-      <div className="channel-capacity">{channel.capacity} sat</div>
+      <div className="channel-capacity">{channel.capacity} lit</div>
     </li>
   );
 };

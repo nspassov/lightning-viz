@@ -1,6 +1,6 @@
-# lightning-viz
+# lightning-viz for Litecoin
 
-This a visualizer for the Bitcoin Lightning Network. It can apply to mainnet or testnet depending what mode LND is running under.
+This a visualizer for the Litecoin Lightning Network. It can apply to mainnet or testnet depending what mode LND is running under.
 
 Lightning-viz supports advanced node querying (enter `query:` into the search bar) and remapping of the graph based on the node search results.
 

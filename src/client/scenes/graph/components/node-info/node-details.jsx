@@ -36,7 +36,7 @@ export const NodeDetails = ({ selectedNode, selectedNodeChannels }) => (
     <div className="row">
       <div className="col-sm-4">Capacity:</div>
       <div className="col-sm-8">
-        {selectedNodeChannels.map(p => parseInt(p.capacity)).reduce((sum, val) => sum + val, 0)} sat
+        {selectedNodeChannels.map(p => parseInt(p.capacity)).reduce((sum, val) => sum + val, 0)} lit
       </div>
     </div>
   </div>

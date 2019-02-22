@@ -9,7 +9,7 @@ export const NodeListCard = ({ fullGraph, filteredNodes, ...props }) => {
   let { testnet } = fullGraph;
   return (
     <div className="nodes-card card">
-      <h3 className="card-header">Bitcoin {testnet ? 'Testnet' : 'Mainnet'}</h3>
+      <h3 className="card-header">Litecoin {testnet ? 'Testnet' : 'Mainnet'}</h3>
       <div className="nodes-card-body card-body">
         <NodeListFilters nodes={filteredNodes} {...props} />
         <NodeList nodes={filteredNodes} {...props} />
